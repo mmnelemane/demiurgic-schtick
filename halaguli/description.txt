@@ -1,0 +1,82 @@
+A brief description of the game:
+
+The game shall display a box with 2 rows of semispherical containers with 8
+containers/BOWLS in each row. At the two ends of the box are big containers
+each belonging to one of the players.
+
+The game starts with all the BOWLS filled with a specific number of
+"BEANS"(5 or 8 are the standard numbers used). The players' containers do not
+have any BEAN at the start. The strategy of the game for the players is to
+collect as many BEANS as possible. The players play the game in several rounds.
+The game ends when one of the players do not have enough BEANS to fill atleast
+one of the BOWLS. The two players are imagined to be sitting on either sides of
+the game-box. The game progresses as follows:
+
+For the purpose of description, lets assume that the rows are named as A and B.
+The BOWLS in these rows can be numbered as A1 to A8 and B1 to B8 from Left to
+Right for both the players. A simple demonstration can be as below
+
+                O_/  Player A
+                  \
+          
+   | A8 | A7 | A6 | A5 | A4 | A3 | A2 | A1 |
+
+   | B1 | B2 | B3 | B4 | B5 | B6 | B7 | B8 |
+
+                 O_/  Player B
+                   \
+                    
+
+1. One of the player starts by picking all the BEANS in any of the BOWLS on
+his side. The game will distribute the BEANS (1 BEAN to each container)
+starting from the BOWL next to the picked BOWL. (for eg: if the player A picks
+the BEANS from A2, A2 will be empty, 1 bean each is distributed to A3, A4, A5,
+A6, A7, A8, B1, B2)
+
+2. Then he picks up the BOWL next the BOWL he ended last (i.e B3
+in our example). The distribution happens again in a similar way. 
+
+3. The cycle continues for the first player until, his distribution ends before an empty
+BOWL.
+
+4. If the player encounters an empty BOWL after a distribution is complete, he
+can end his turn with two possibilities:
+   - if he encounters a single BOWL, he can pick up the BEANS from the filled up BOWL
+     immediately next to the empty BOWL and transfer them to his container. He
+     owns those BEANS.
+   - If he encounters more than one empty BOWL, he doesn't get any BEAN for
+     this turn
+
+5. The second player continues again by picking any of the BOWLS on his side.
+
+Bonus:
+The players can decide on a magic number (minimum is 3). After a player
+completes his turn, if there are are BOWLS on his side containing the magic
+number of BEANS (eg: 3 BEANS if the start was done with 5 BEANS in each BOWL), 
+he can choose to pick the BEANS and place it in his container. 
+He obviously has the choice to let the BOWL fill up in order to get
+a bigger portion in his next turn. 
+
+Note: 
+- The players can start their turn only on his/her side of the board. 
+- The players can pick bonus BOWLS only on his/her side of the board.
+- The BOWLS on the opponent side cannot be touched.
+- However, distribution of beans during the turn is done to all the BOWLS in
+  sequence.
+
+6. Once all the BEANS are emptied from the board, the players will use the
+BEANS in their containers to fill up the BOWLS on his/her side of the board.
+Each BOWL should have the fixed number of BEANS (eg: 5). If the player cannot
+fill up some of the BOWLS with the fixed number of BEANS, these BOWLS are
+crossed. The player cannot fill the bowl with less than the fixed number of
+BEANS. The crossed bowls will be skipped during distribution. 
+
+7. The sequence continues until one of the player does not have sufficient
+BEANS to fill even one BOWL on his side. This player is said to LOSE. The other
+player who has more BEANS in his container is the WINNER!!!
+
+Note:
+- Player can choose any of the BOWLS on his side when starting his turn
+- The player's sense to correctly identify and choose the starting BOWL in
+  every turn that can fetchh him maximum BEANS is the key to winning.
+
